@@ -139,7 +139,7 @@ def index():
 @app.route('/run-script')
 def run_script():
     TWITTER_USERNAME = "testers545245"
-    TWITTER_PASSWORD = "Tushartiwari21"
+    TWITTER_PASSWORD = "*******"
     result = main(TWITTER_USERNAME, TWITTER_PASSWORD)
     return jsonify(result)
 
